@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+
+    <LinearLayout
+        android:id="@+id/button_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/button_general"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:padding="10dp"
+            android:text="General" />
+
+        <Button
+            android:id="@+id/button_sports"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:padding="10dp"
+            android:text="Sports" />
+
+        <Button
+            android:id="@+id/button_business"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:padding="10dp"
+            android:text="Business" />
+
+        <Button
+            android:id="@+id/button_technology"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:padding="10dp"
+            android:text="Technology" />
+
+        <Button
+            android:id="@+id/button_entertainment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:padding="10dp"
+            android:text="Entertainment" />
+
+        <Button
+            android:id="@+id/button_health"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:padding="10dp"
+            android:text="Health" />
+
+        <Button
+            android:id="@+id/button_science"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:padding="10dp"
+            android:text="Science" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
